@@ -61,12 +61,112 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.after">module after</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.after.after">
+            function <span class="apidocSignatureSpan"></span>after
+            <span class="apidocSignatureSpan">(count, callback, err_cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.after.toString">
+            function <span class="apidocSignatureSpan">after.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.after.toString">module after.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.after.toString.toString">
+            function <span class="apidocSignatureSpan">after.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.after" id="apidoc.module.after">module after</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.after.after" id="apidoc.element.after.after">
+        function <span class="apidocSignatureSpan"></span>after
+        <span class="apidocSignatureSpan">(count, callback, err_cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function after(count, callback, err_cb) {
+    var bail = false
+    err_cb = err_cb || noop
+    proxy.count = count
+
+    return (count === 0) ? callback() : proxy
+
+    function proxy(err, result) {
+        if (proxy.count &#x3c;= 0) {
+            throw new Error(&#x27;after called too many times&#x27;)
+        }
+        --proxy.count
+
+        // after first error, rest are passed to err_cb
+        if (err) {
+            bail = true
+            callback(err)
+            // future error callbacks will go to error handler
+            callback = err_cb
+        } else if (proxy.count === 0 &#x26;&#x26; !bail) {
+            callback(null, result)
+        }
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.after.toString" id="apidoc.element.after.toString">
+        function <span class="apidocSignatureSpan">after.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.after.toString" id="apidoc.module.after.toString">module after.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.after.toString.toString" id="apidoc.element.after.toString.toString">
+        function <span class="apidocSignatureSpan">after.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
