@@ -1,9 +1,14 @@
-# api documentation for  [after (v0.8.2)](https://github.com/Raynos/after#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-after.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-after) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-after.svg)](https://travis-ci.org/npmdoc/node-npmdoc-after)
+# npmdoc-after
+
+#### api documentation for  [after (v0.8.2)](https://github.com/Raynos/after#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-after.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-after) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-after.svg)](https://travis-ci.org/npmdoc/node-npmdoc-after)
+
 #### after - tiny flow control
 
-[![NPM](https://nodei.co/npm/after.png?downloads=true)](https://www.npmjs.com/package/after)
+[![NPM](https://nodei.co/npm/after.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/after)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-after/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-after_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-after/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-after/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-after/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-after/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-after/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-after/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Raynos",
-        "email": "raynos2@gmail.com"
+        "name": "Raynos"
     },
     "bugs": {
         "url": "https://github.com/Raynos/after/issues"
@@ -26,7 +30,6 @@
     "contributors": [
         {
             "name": "Raynos",
-            "email": "raynos2@gmail.com",
             "url": "http://raynos.org"
         }
     ],
@@ -52,17 +55,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "raynos",
-            "email": "raynos2@gmail.com"
+            "name": "raynos"
         },
         {
-            "name": "defunctzombie",
-            "email": "shtylman@gmail.com"
+            "name": "defunctzombie"
         }
     ],
     "name": "after",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/Raynos/after.git"
@@ -73,16 +73,6 @@
     "version": "0.8.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module after](#apidoc.module.after)
-
-
-
-# <a name="apidoc.module.after"></a>[module after](#apidoc.module.after)
 
 
 
