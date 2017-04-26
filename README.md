@@ -1,6 +1,6 @@
 # npmdoc-after
 
-#### api documentation for  [after (v0.8.2)](https://github.com/Raynos/after#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-after.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-after) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-after.svg)](https://travis-ci.org/npmdoc/node-npmdoc-after)
+#### basic api documentation for  [after (v0.8.2)](https://github.com/Raynos/after#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-after.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-after) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-after.svg)](https://travis-ci.org/npmdoc/node-npmdoc-after)
 
 #### after - tiny flow control
 
@@ -70,7 +70,8 @@
     "scripts": {
         "test": "mocha --ui tdd --reporter spec test/*.js"
     },
-    "version": "0.8.2"
+    "version": "0.8.2",
+    "bin": {}
 }
 ```
 
